@@ -94,10 +94,18 @@ where 121 is feature name
 
 
 now A and another developers:
+
 `git pull`
+
 `git branch --set-upstream feature/121 origin/feature/121`
 
+so now they all can start developing stuff, normally commit and push, commit push
 
+
+after feature is done someone (it doesn't matter who) call
+
+
+`git flow feature finish 121`
 
 
 
