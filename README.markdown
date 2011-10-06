@@ -88,24 +88,22 @@ Sometimes features are so big we need help, so we push our branch to repository 
 So first developer - call him A - will init this feature:
 
 `git flow feature start 121`
-where 121 is feature name
 
-`git push origin feature/121`
+`git flow feature publish 121`
 
 
 now A and another developers:
 
-`git pull`
+`git flow feature track 121`
 
-`git branch --set-upstream feature/121 origin/feature/121`
 
 so now they all can start developing stuff, normally commit and push, commit push
 
 
-after feature is done someone (it doesn't matter who) call
-
-
+after feature is done
 `git flow feature finish 121`
+
+
 
 
 
