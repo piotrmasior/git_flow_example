@@ -104,7 +104,14 @@ after feature is done
 `git flow feature finish 121`
 
 
+== Afterword
 
+Develop is in theory always group of finished features, so it can be deployed to staging.
+
+When everything is good, and develop process ends we can create release.
+After it is done everything from develop goes to master and is ready to deploy.
+
+Master can be deployed to production.
 
 
 # Current Version
