@@ -85,6 +85,17 @@ you will be back at develop when everything goes fine where you can start new fe
 ## Share feature with others
 
 Sometimes features are so big we need help, so we push our branch to repository to do this.
+So first developer - call him A - will init this feature:
+
+`git flow feature start 121`
+where 121 is feature name
+
+`git push origin feature/121`
+
+
+now A and another developers:
+`git pull`
+`git branch --set-upstream feature/121 origin/feature/121`
 
 
 
