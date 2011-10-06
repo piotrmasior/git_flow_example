@@ -104,7 +104,7 @@ after feature is done
 `git flow feature finish 121`
 
 
-== Afterword
+## Afterword
 
 Develop is in theory always group of finished features, so it can be deployed to staging.
 
@@ -115,4 +115,4 @@ Master can be deployed to production.
 
 
 # Current Version
-  v0.2.0
+  v0.2.1
